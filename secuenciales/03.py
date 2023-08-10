@@ -17,7 +17,5 @@ yarda3=parte3*1760
 
 recorridoYarda=yarda1+yarda2+yarda3
 
-print("-----------------------------------------------------------------\n")
-
 print("El recorrido total en metros es: ",round(recorridoMetro,2))
 print("El recorrido total en yardas es: ",round(recorridoYarda,2))
