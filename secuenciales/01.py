@@ -16,5 +16,5 @@ print("% de Mujeres: ",round(Pmuj, 2),"%")
 
 print("\n")
 
-print(F"% de Varones: {format(Pvar,'.2f')}%")
-print(F"% de Mujeres: {format(Pmuj,'.2f')}%")
+print(F"% de Varones: {Pvar:.2f}%")
+print(F"% de Mujeres: {Pmuj:.2f}%")
