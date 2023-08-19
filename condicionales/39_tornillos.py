@@ -1,7 +1,7 @@
 import os
 os.system("cls")
 
-horas = float(input("Horas ausentes: "))
+horas_ausentes = float(input("Horas ausentes: "))
 Tdefectuosos = int(input("Tornillos defectuosos: "))
 tornillos = int(input("Tornillos no defectuosos: "))
 
@@ -9,7 +9,7 @@ categoria1 = 0
 categoria2 = 0
 categoria3 = 0
 
-if horas < 1.5: categoria1 = 1
+if horas_ausentes < 1.5: categoria1 = 1
 if Tdefectuosos < 300: categoria2 = 1
 if tornillos > 10000: categoria3 = 1
 
