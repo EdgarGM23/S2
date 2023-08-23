@@ -1,8 +1,11 @@
 import os
 os.system("cls")
 
-texto = input("Ingrese el texto: ")
+def mayus(texto):
+    if texto=="": return ""
+    rpta = ""
+    for i in texto:
+        rpta += chr(ord(i) - 32) if i >= "a" and i <= "z" else i
+    return rpta
 
-if texto.isupper():
-    print(texto.lower())
-else: print(texto.upper())
+print(mayus("omar"))

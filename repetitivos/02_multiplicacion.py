@@ -4,10 +4,11 @@ os.system("cls")
 numero1 = int(input("Numero 1: "))
 numero2 = int(input("Numero 2: "))
 
-resultado = 0
+def multi(num1, num2):
+    resultado = 0
+    while num2 >= 1:
+        resultado += num1
+        num2 -= 1
+    return resultado
 
-while numero2 >= 1:
-    resultado += numero1
-    numero2 -= 1
-
-print(f"El resultado es: {resultado}")
+print(f"El resultado es: {multi(numero1, numero2)}")
