@@ -9,9 +9,9 @@ mitad = (Pamela + Karol + Fany) // 2
 
 mensaje = ""
 
-if Pamela > mitad : mensaje = "Ganó Pamela"
-elif Karol > mitad : mensaje = "Ganó karol"
-elif Fany > mitad : mensaje = "Ganó Fany"
+if Pamela > mitad + 1 : mensaje = "Ganó Pamela"
+elif Karol > mitad + 1 : mensaje = "Ganó karol"
+elif Fany > mitad + 1: mensaje = "Ganó Fany"
 
 elif Pamela < Karol and Pamela < Fany: mensaje = "Pasan a la segunda vuelta: Karol y Fany"
 elif Karol < Pamela and Karol < Fany: mensaje = "Pasan a la segunda vuelta: Pamela y Fany"

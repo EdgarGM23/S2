@@ -15,3 +15,4 @@ elif bDiv2 and not bDiv3 and not bDiv5:
     print("El empleado es Vendedor")
 elif not bDiv2 and not bDiv3 and not bDiv5:
     print("El empleado es Seguridad")
+else: print("No hay tipo")

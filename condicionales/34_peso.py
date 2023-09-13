@@ -11,5 +11,5 @@ elif imc >= 20 and imc <25: grado_obesidad = "Normal"
 elif imc >= 25 and imc <=27: grado_obesidad = "Sobrepeso"
 elif imc > 27: grado_obesidad = "Obesidad"
 
-print(imc)
+print(f"{imc:.2f}")
 print(f"El grado de obesidad es:    {grado_obesidad}")
